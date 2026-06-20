@@ -40,3 +40,30 @@ h1 {
 body {
     margin: 0;
 }
+
+.card {
+    border: 2px solid black;
+    width: 300px;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+}
+
+.toggle-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.toggle-container button {
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
